@@ -1,4 +1,4 @@
-# Atividade Final Cumulativa - Evoluindo a API de Gerenciamento de Tarefas
+# Atividade Final
 
 ## Descrição do Projeto
 Esta aplicação é a evolução da API de gerenciamento de tarefas do usuário único, desenvolvida inicialmente no Dia 1. O objetivo desta versão é transformar a API em uma aplicação **multiusuário**, **segura**, **persistente**, **testável** e **pronta para deploy**.
