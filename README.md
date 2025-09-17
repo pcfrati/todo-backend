@@ -2,7 +2,7 @@
 
 **Histórico de Atividades / Commits:**  
 - **03/09/25:** Atividade solo do curso de DEV.  
-- **17/09/25:** Atividade em trio com Luiza Suemi (@/luizasuyoko) e Mirella Lira (@/mirellaliraa).  
+- **17/09/25:** Atividade em dupla com Luiza Suemi (@/luizasuyoko).  
 - **Professor:** Celso (@/celsoricarvalho).
 
 ## Descrição do Projeto
