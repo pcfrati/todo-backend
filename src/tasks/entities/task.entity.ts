@@ -1,5 +1,6 @@
 // src/products/entities/task.entity.ts
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from 'typeorm';
+import { UserEntity } from 'src/users/entities/user.entity';
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, ManyToOne } from 'typeorm';
 
 @Entity({ name: 'tasks' })
 export class TaskEntity {
@@ -21,4 +22,8 @@ export class TaskEntity {
 
   @CreateDateColumn({ name: 'created_at' })
   createdAt: Date;
+
+  @ManyToOne(() => UserEntity, (user) => user.tasks, { eager: true })
+  user: UserEntity;
 }
+

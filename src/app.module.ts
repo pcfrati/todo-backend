@@ -13,9 +13,9 @@ import { TasksModule } from './tasks/tasks.module';
       port: 3306,
       username: 'root',
       password: '1234', // <-- MUITO IMPORTANTE: Coloque a senha que você configurou na instalação do MySQL
-      database: 'tasks', // O nome do banco que criamos no Workbench
+      database: 'tasks', 
       entities: [__dirname + '/**/*.entity{.ts,.js}'], // Encontra as entidades automaticamente
-      synchronize: true, // Apenas para desenvolvimento! Cria as tabelas automaticamente.
+      synchronize: false,
     }),
     TasksModule,
   ],

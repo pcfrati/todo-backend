@@ -3,7 +3,7 @@ import { IsString, IsIn, IsOptional } from "class-validator";
 export class updateTaskDto {
     @IsString()
     @IsOptional()
-    name?: string;
+    nome?: string;
 
     @IsString()
     @IsOptional()
